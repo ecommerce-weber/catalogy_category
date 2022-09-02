@@ -1,0 +1,195 @@
+
+/* list group */
+.list-group2 a {
+	color: #888888;
+	padding: 8px 12px;
+}
+.list-group2 a.active, .list-group2 a.active:hover, .list-group2 a:hover {
+	font-size: 20px;
+	/* color: #333; */
+	color: #23a1d1;
+}
+.tags ul {
+	float: left;
+}
+.tags ul li {
+	display: inline;
+}
+.tags li a{
+	background-color: #23a1d1;
+	color: #fff;
+	border-radius: 2.5rem;
+	border: 1px solid #23a1d1;
+	padding: 10px 15px;
+}
+
+.tags li a:hover{
+	background-color: #fff;
+	color: #23a1d1;
+	border-radius: 2.5rem;
+	border: 1px solid #23a1d1;
+	padding: 10px 15px;
+}
+
+.tags2 a{
+	background-color: #23a1d1;
+	color: #fff;
+	border-radius: 2.5rem;
+	border: 1px solid #23a1d1;
+	padding: 10px 10px;
+	font-size: 13px;
+}
+
+.tags2 a:hover{
+	background-color: #fff;
+	color: #23a1d1;
+	border-radius: 2.5rem;
+	border: 1px solid #23a1d1;
+	padding: 10px 10px;
+	font-size: 13px;
+}
+
+.list-group-item2 {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: -1px;
+	background-color: #fff;
+}
+.btn2{
+	color: #fff;
+}
+.btn2:active{
+	color: #23a1d1;
+}
+
+.btn2 > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #23a1d1 !important;
+  }
+  .btn2 {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+		touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+			user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 2.5rem;
+  }
+  .btn:focus,
+  .btn2:active:focus,
+  .btn2.active:focus,
+  .btn2.focus,
+  .btn2:active.focus,
+  .btn2.active.focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+  }
+  .btn2:hover,
+  .btn2:focus,
+  .btn2.focus {
+	color: #333;
+	text-decoration: none;
+  }
+  .btn2:active,
+  .btn2.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+			box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  }
+  .btn2.disabled,
+  .btn2[disabled],
+  fieldset[disabled] .btn {
+	cursor: not-allowed;
+	filter: alpha(opacity=65);
+	-webkit-box-shadow: none;
+			box-shadow: none;
+	opacity: .65;
+  }
+  a.btn2.disabled,
+  fieldset[disabled] a.btn {
+	pointer-events: none;
+  }
+  
+  .btn-primary2 {
+	color: #23a1d1;
+	background-color: #fff;
+	border-color: #23a1d1;
+  }
+  .btn-primary2:focus,
+  .btn-primary2.focus {
+	color: #fff;
+	background-color: #23a1d1;
+	border-color: #23a1d1;
+  }
+  .btn-primary2:hover {
+	color: #fff;
+	background-color: #23a1d1;
+	border-color: #23a1d1;
+  }
+  .btn-primary2:active,
+  .btn-primary2.active,
+  .open > .dropdown-toggle.btn-primary2 {
+	color: #fff;
+	background-color: #23a1d1;
+	border-color: #23a1d1;
+  }
+  .btn-primary2:active:hover,
+  .btn-primary2.active:hover,
+  .open > .dropdown-toggle.btn-primary2:hover,
+  .btn-primary2:active:focus,
+  .btn-primary2.active:focus,
+  .open > .dropdown-toggle.btn-primary2:focus,
+  .btn-primary2:active.focus,
+  .btn-primary2.active.focus,
+  .open > .dropdown-toggle.btn-primary2.focus {
+	color: #fff;
+	background-color: #23a1d1;
+	border-color: #23a1d1;
+  }
+  .btn-primary2:active,
+  .btn-primary2.active,
+  .open > .dropdown-toggle.btn-primary2 {
+	background-image: none;
+  }
+  .btn-primary2.disabled,
+  .btn-primary2[disabled],
+  fieldset[disabled] .btn-primary2,
+  .btn-primary2.disabled:hover,
+  .btn-primary2[disabled]:hover,
+  fieldset[disabled] .btn-primary2:hover,
+  .btn-primary2.disabled:focus,
+  .btn-primary2[disabled]:focus,
+  fieldset[disabled] .btn-primary2:focus,
+  .btn-primary2.disabled.focus,
+  .btn-primary2[disabled].focus,
+  fieldset[disabled] .btn-primary2.focus,
+  .btn-primary2.disabled:active,
+  .btn-primary2[disabled]:active,
+  fieldset[disabled] .btn-primary2:active,
+  .btn-primary2.disabled.active,
+  .btn-primary2[disabled].active,
+  fieldset[disabled] .btn-primary2.active {
+	background-color: #23a1d1;
+	border-color: #2e6da4;
+  }
+  .btn-primary2 .badge {
+	color: #23a1d1;
+	background-color: #fff;
+  }
+  
+  
