@@ -7,9 +7,9 @@ class ControllerProductCategory extends Controller {
 
 		$this->load->model('catalog/product');
 
-		$this->load->model('tool/image');
+		$this->document->addStyle('catalog/view/theme/default/stylesheet/category.css');
 
-		$this->document->addStyle('catalog/view/theme/default/stylesheet/categoria.css');
+		$this->load->model('tool/image');
 
 		if (isset($this->request->get['filter'])) {
 			$filter = $this->request->get['filter'];

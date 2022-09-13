@@ -37,7 +37,7 @@
 	border-radius: 2.5rem;
 	border: 1px solid #23a1d1;
 	padding: 10px 10px;
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .tags2 a:hover{
@@ -46,7 +46,7 @@
 	border-radius: 2.5rem;
 	border: 1px solid #23a1d1;
 	padding: 10px 10px;
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .list-group-item2 {
@@ -62,7 +62,6 @@
 .btn2:active{
 	color: #23a1d1;
 }
-
 .btn2 > .caret,
   .dropup > .btn > .caret {
     border-top-color: #23a1d1 !important;
